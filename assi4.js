@@ -1,0 +1,10 @@
+//let x;
+x=10;
+let y;
+y = 5;
+console.log("Before swaping "+x+" and "+y);
+let temp;
+temp = x;
+x=y;
+y=temp;
+console.log("After swaping "+x+" and "+y);
